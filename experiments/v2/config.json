@@ -1,0 +1,24 @@
+{
+  "name": "V2_NoLag_LightGBM",
+  "version": "v2",
+  "description": "Lag/Rolling feature 제외, 순수 외부 요인만 사용",
+  "target": "net_passengers",
+  "test_size": 0.2,
+  "random_state": 42,
+  "hyperparameters": {
+    "n_estimators": 1000,
+    "learning_rate": 0.03,
+    "num_leaves": 63,
+    "max_depth": 10,
+    "min_child_samples": 50,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.5,
+    "reg_lambda": 0.5,
+    "n_jobs": -1,
+    "verbose": -1,
+    "random_state": 42
+  },
+  "feature_count": 75,
+  "timestamp": "2025-11-27T10:41:59.052548"
+}
