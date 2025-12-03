@@ -1,0 +1,4 @@
+ensemble,mean_mae,std_mae,mean_rmse,mean_r2,std_r2
+Median,168.81,31.0,245.0,0.9494,0.0155
+Simple_Average,171.26,32.6,248.0,0.9477,0.0161
+Weighted_Average,171.29,32.7,248.0,0.9479,0.0159

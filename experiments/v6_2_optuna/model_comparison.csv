@@ -1,0 +1,5 @@
+model,mean_mae,std_mae,mean_rmse,mean_r2,std_r2
+XGBoost_Optuna,172.69,41.8,250.0,0.9291,0.0368
+CatBoost_Optuna,190.94,35.4,265.0,0.9451,0.0124
+LightGBM_Optuna,199.53,37.9,280.0,0.9395,0.0174
+LightGBM_Default,241.96,52.9,320.0,0.9187,0.0271

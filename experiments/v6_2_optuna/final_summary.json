@@ -1,0 +1,19 @@
+{
+  "baseline": {
+    "model": "LightGBM_Default",
+    "mae": 241.96,
+    "r2": 0.9187
+  },
+  "best_single": {
+    "model": "XGBoost_Optuna",
+    "mae": 172.69,
+    "r2": 0.9291
+  },
+  "best_ensemble": {
+    "model": "Median_Ensemble",
+    "mae": 168.81,
+    "r2": 0.9494
+  },
+  "improvement_pct": 30.2,
+  "optimization_time_min": 88.1
+}
