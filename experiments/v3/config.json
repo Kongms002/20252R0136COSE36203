@@ -1,0 +1,24 @@
+{
+  "name": "V3_StationTime_LightGBM",
+  "version": "v3",
+  "description": "역-시간 조합 평균 feature + 외부 요인",
+  "target": "net_passengers",
+  "test_size": 0.2,
+  "random_state": 42,
+  "hyperparameters": {
+    "n_estimators": 1000,
+    "learning_rate": 0.05,
+    "num_leaves": 127,
+    "max_depth": 12,
+    "min_child_samples": 30,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.2,
+    "reg_lambda": 0.2,
+    "n_jobs": -1,
+    "verbose": -1,
+    "random_state": 42
+  },
+  "feature_count": 89,
+  "timestamp": "2025-11-27T10:42:52.545957"
+}
