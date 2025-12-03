@@ -1,0 +1,24 @@
+{
+  "name": "V1_Baseline_LightGBM",
+  "version": "v1",
+  "description": "LightGBM 기반 베이스라인 모델",
+  "target": "net_passengers",
+  "test_size": 0.2,
+  "random_state": 42,
+  "hyperparameters": {
+    "n_estimators": 500,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "max_depth": -1,
+    "min_child_samples": 20,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 0.1,
+    "n_jobs": -1,
+    "verbose": -1,
+    "random_state": 42
+  },
+  "feature_count": 114,
+  "timestamp": "2025-11-27T10:41:13.624070"
+}
